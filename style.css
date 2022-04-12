@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: url(bg1.jpg) center center fixed ;
+   background-size: cover;
+}
+.container {
+    position: absolute;
+    top: 32%;
+    left: 42%;
+  
+}
+.container  h1 {
+    font-size: 50px;
+    border-bottom: 5px solid #F34CEB;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 10px 0;
+    display: inline-block;
+    position: relative;
+    bottom: 25px;
+    left: 8px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.box {
+    width: 270px;
+    padding: 0 12px;
+    margin: 12px 0px;
+    border-bottom: 3.5px solid #FF00F7;
+}
+.box input {
+    width: 200px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    color: white;
+    position: relative;
+    left: 7px;
+    padding: 6px 9px;
+    border-radius: 4px;
+    background: none;
+  
+}
+.btn {
+    background-color: #E100FF;
+    padding: 4px;
+    outline: none;
+    border: 1px solid purple;
+    border-radius: 5px;
+    box-shadow: 0 0  9px rgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    top: 14px;
+    width: 70px;
+    left: 5px;
+    cursor: pointer;
+    color: white;
+}
+.btn:hover {
+    color: #C416DB;
+    background-color: rgb(253, 249, 249);
+    transition: ease-in 0.2s;
+}
+#mailicon {
+    position: relative;
+    top: 6px;
+    left: 2px;
+    font-size: 22px;
+}
+#key {
+    font-size: 22px;
+    position: relative;
+    top: 6px;
+    left: 2px;
+}
